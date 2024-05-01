@@ -30,5 +30,9 @@ namespace MVCDemo.Data.Repository
         {
              _dbContext.Set<TEntity>().Add(entity);
         }
+        public void Save()
+        {
+            _dbContext.SaveChanges();
+        }
     }
 }

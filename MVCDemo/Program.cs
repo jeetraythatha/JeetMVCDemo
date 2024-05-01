@@ -1,8 +1,10 @@
+using AutoMapper;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.SqlServer;
 using MVCDemo.Data;
 using MVCDemo.Data.Repository;
 using MVCDemo.Data.Repository.IRepository;
+using MVCDemo.Mapper;
 var builder = WebApplication.CreateBuilder(args);
 
 
@@ -12,7 +14,8 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 {
     options.UseSqlServer(builder.Configuration.GetConnectionString("Default"));
 });
-builder.Services.AddScoped<IRepository<Product>, Repository<Product>>();
+builder.Services.AddSingleton(new MapperConfiguration(x => x.AddProfile(new MapperProfile())).CreateMapper());
+builder.Services.AddTransient(typeof(IRepository<>),typeof(Repository<>));
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

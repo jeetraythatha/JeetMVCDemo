@@ -11,5 +11,6 @@ namespace MVCDemo.Data.Repository.IRepository
         IEnumerable<TEntity> GetAll();
         TEntity GetById(int id);
         void Insert(TEntity entity);
+        void Save();
     }
 }

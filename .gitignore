@@ -7,3 +7,14 @@
 /MVCDemo/bin/Debug/net6.0
 /MVCDemo.Data/obj
 /MVCDemo.Data/bin/Debug/net6.0
+/MVCDemo/obj/Debug/net6.0
+/MVCDemo/obj/Debug/net6.0
+*.props
+*.cache
+*.CopyComplete
+*.exe
+*.pdb
+*.dll
+/.vs/*
+**/bin/*
+**/obj/*
