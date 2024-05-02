@@ -30,6 +30,14 @@ namespace MVCDemo.Data.Repository
         {
              _dbContext.Set<TEntity>().Add(entity);
         }
+        public void Update(TEntity entity)
+        {
+            _dbContext.Set<TEntity>().Update(entity);
+        }
+        public void Delete(TEntity entity)
+        {
+            _dbContext.Set<TEntity>().Remove(entity);
+        }
         public void Save()
         {
             _dbContext.SaveChanges();

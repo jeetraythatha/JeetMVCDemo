@@ -12,5 +12,7 @@ namespace MVCDemo.Data.Repository.IRepository
         TEntity GetById(int id);
         void Insert(TEntity entity);
         void Save();
+        void Update(TEntity entity);
+        void Delete(TEntity entity);
     }
 }

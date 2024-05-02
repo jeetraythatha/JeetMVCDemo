@@ -1,0 +1,14 @@
+﻿@model ProductModel
+
+
+<form method="post">
+    <input asp-for="Id" hidden />
+    <label asp-for="Name"></label>
+    <input readonly asp-for="Name" />
+    <label asp-for="Category"></label>
+    <input readonly asp-for="Category" />
+    <label asp-for="Description"></label>
+    <input readonly asp-for="Description" />
+
+    <button type="submit">Delete</button>
+</form>
