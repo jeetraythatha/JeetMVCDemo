@@ -16,4 +16,4 @@ DemoMVC Rise Batch
      1. https://medium.com/@supino0017/automapper-for-object-mapping-in-net-8-5b20a034de8c
      2. https://stackoverflow.com/questions/40275195/how-to-set-up-automapper-in-asp-net-core
 6. Links For EntityFrameworkCore https://www.entityframeworktutorial.net/efcore/entity-framework-core.aspx
-
+7. Link Angular Material Table with pagination => https://material.angular.io/components/table/overview
