@@ -17,3 +17,15 @@ DemoMVC Rise Batch
      2. https://stackoverflow.com/questions/40275195/how-to-set-up-automapper-in-asp-net-core
 6. Links For EntityFrameworkCore https://www.entityframeworktutorial.net/efcore/entity-framework-core.aspx
 7. Link Angular Material Table with pagination => https://material.angular.io/components/table/overview
+8.** MVC Links
+       1. https://www.tutorialsteacher.com/mvc/action-filters-in-mvc
+       2. https://www.c-sharpcorner.com/article/filters-in-Asp-Net-mvc-5-0-part-twelve/
+       3. https://learn.microsoft.com/en-us/aspnet/mvc/overview/older-versions-1/controllers-and-routing/understanding-action-filters-cs
+       4. html Helpers = https://www.tutorialsteacher.com/mvc/html-helpers
+       5. validations =  https://www.tutorialsteacher.com/mvc/implement-validation-in-asp.net-mvc
+       6. https://www.tutorialsteacher.com/mvc/partial-view-in-asp.net-mvc
+       7. viewBag =  https://www.tutorialsteacher.com/mvc/viewbag-in-asp.net-mvc
+       8. ViewData = https://www.tutorialsteacher.com/mvc/viewdata-in-asp.net-mvc
+       9. Tempdata = https://www.tutorialsteacher.com/mvc/tempdata-in-asp.net-mvc
+       10. https://www.tutorialsteacher.com/mvc/filters-in-asp.net-mvc
+**
