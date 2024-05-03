@@ -9,6 +9,7 @@ namespace MVCDemo.Mapper
         public MapperProfile()
         {
             CreateMap<ProductModel, Product>().ReverseMap();
+            CreateMap<CategoryModel,Category>().ReverseMap();
         }
     }
 }

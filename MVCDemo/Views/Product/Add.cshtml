@@ -1,10 +1,14 @@
 ﻿@model ProductModel
-
 <form method="post">
     <label asp-for="Name"></label>
     <input asp-for="Name" />
-    <label asp-for="CategoryModel.Name"></label>
-    <input asp-for="CategoryModel.Name" />
+    <span asp-validation-for="Name"></span>
+    <select  asp-for="CategoryId">
+        @foreach(var item in Model.categories)
+        {
+            <option value="@item.Id">@item.Name</option>
+        }
+    </select>
     <label asp-for="Description"></label>
     <input asp-for="Description" />
 

@@ -140,3 +140,12 @@ C:\Users\Jeet.Raythatha\Source\repos\JeetMVCDemo\MVCDemo\obj\Debug\net6.0\refint
 C:\Users\Jeet.Raythatha\Source\repos\JeetMVCDemo\MVCDemo\obj\Debug\net6.0\MVCDemo.pdb
 C:\Users\Jeet.Raythatha\Source\repos\JeetMVCDemo\MVCDemo\obj\Debug\net6.0\MVCDemo.genruntimeconfig.cache
 C:\Users\Jeet.Raythatha\Source\repos\JeetMVCDemo\MVCDemo\obj\Debug\net6.0\ref\MVCDemo.dll
+C:\Users\Jeet.Raythatha\Source\repos\JeetMVCDemo\MVCDemo\bin\Debug\net6.0\EntityFramework.SqlServer.dll
+C:\Users\Jeet.Raythatha\Source\repos\JeetMVCDemo\MVCDemo\bin\Debug\net6.0\EntityFramework.dll
+C:\Users\Jeet.Raythatha\Source\repos\JeetMVCDemo\MVCDemo\bin\Debug\net6.0\System.CodeDom.dll
+C:\Users\Jeet.Raythatha\Source\repos\JeetMVCDemo\MVCDemo\bin\Debug\net6.0\System.Data.SqlClient.dll
+C:\Users\Jeet.Raythatha\Source\repos\JeetMVCDemo\MVCDemo\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+C:\Users\Jeet.Raythatha\Source\repos\JeetMVCDemo\MVCDemo\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+C:\Users\Jeet.Raythatha\Source\repos\JeetMVCDemo\MVCDemo\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+C:\Users\Jeet.Raythatha\Source\repos\JeetMVCDemo\MVCDemo\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Jeet.Raythatha\Source\repos\JeetMVCDemo\MVCDemo\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll

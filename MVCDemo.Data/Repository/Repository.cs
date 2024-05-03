@@ -6,6 +6,7 @@ using System.Linq;
 using System.Reflection.Metadata.Ecma335;
 using System.Text;
 using System.Threading.Tasks;
+using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
 
 namespace MVCDemo.Data.Repository
 {
@@ -16,9 +17,18 @@ namespace MVCDemo.Data.Repository
         {
             _dbContext = context;
         }
-        public IEnumerable<TEntity> GetAll()
+        public IEnumerable<TEntity> GetAll(string includeProperties = null)
         {
-            return _dbContext.Set<TEntity>().ToList();
+            IQueryable<TEntity> query = _dbContext.Set<TEntity>();
+            if (includeProperties != null)
+            {
+                foreach (var includeProperty in includeProperties.Split(
+                new char[] { ',' }, StringSplitOptions.RemoveEmptyEntries))
+                {
+                    query = query.Include(includeProperty);
+                }
+            }
+            return query.ToList();
         }
 
         public TEntity GetById(int id)

@@ -1,0 +1,19 @@
+﻿@model List<CategoryModel>
+
+
+<a class="nav-link text-dark" asp-area="" asp-controller="Category" asp-action="Add">Add Category</a>
+
+@foreach (var item in Model)
+{
+    <div class="row">
+        <div class="col-md-6">
+            <div class="d-md-flex">
+                <p class="mx-4">@item.Name</p>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <a class="btn btn-primary" type="button" asp-route-categoryId="@item.Id" asp-action="Edit">Edit</a>
+            <a class="btn btn-danger" type="button" asp-route-categoryId="@item.Id" asp-action="Delete">Delete</a>
+        </div>
+    </div>
+}

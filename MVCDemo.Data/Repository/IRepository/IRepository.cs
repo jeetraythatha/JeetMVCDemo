@@ -8,7 +8,7 @@ namespace MVCDemo.Data.Repository.IRepository
 {
     public interface IRepository<TEntity> where TEntity : class
     {
-        IEnumerable<TEntity> GetAll();
+        IEnumerable<TEntity> GetAll(string includeProperties = null);
         TEntity GetById(int id);
         void Insert(TEntity entity);
         void Save();
