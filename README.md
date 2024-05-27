@@ -33,6 +33,7 @@ DemoMVC Rise Batch
 
 **DATE ISSUE**
 Add Following Provider Object in app.module.ts
+```
 import { MAT_DATE_LOCALE } from '@angular/material/core';
 import { DatePipe } from '@angular/common';
   providers: [
@@ -42,9 +43,14 @@ import { DatePipe } from '@angular/common';
       provide: MAT_DATE_LOCALE,useValue:'en-GB'
     }
   ],
+```
+
 Use the following to convert the date formate
+```
+
 import { DatePipe } from '@angular/common';
 constructor(public datePipe: DatePipe,) { }
 
     this.startDate = this.datePipe.transform(this.startDate, 'yyyy-MM-dd');
     this.endDate = this.datePipe.transform(this.endDate, 'yyyy-MM-dd');
+```
